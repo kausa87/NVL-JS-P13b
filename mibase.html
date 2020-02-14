@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>My test page</title>
+ </head>
+ <body>
+   <p>This is my page</p>
+ </body>
+</html>
+
+<script type="text/javascript">
+
+alert("¿Es palindromo? "+ palindromo("annnta"));
+
+
+function palindromo (stringa)
+{
+   if (stringa == inversa(stringa)) return "Si es palindromo";
+   	else return "NO es palindromo";
+}
+
+function inversa (stringa)
+{
+var x = stringa.split("");
+var y = x.reverse();
+return y.join("");
+}
+
+
+
+
+
+</script>
